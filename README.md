@@ -6,6 +6,7 @@
 ## Simulation in QuestaSim:
   <img width="1919" height="1037" alt="Concurrent Fifo Test" src="https://github.com/user-attachments/assets/8f9e16d9-2d77-41c3-9f41-be90cbcae344" />
 
+## xc7a35tcpg236-1 FPGA Board
 ## RTL in Vivado:
   <img width="2471" height="1102" alt="RTL_schematic" src="https://github.com/user-attachments/assets/69542098-2558-49ce-8ab0-7d77746e41ed" />
 
