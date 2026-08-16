@@ -2,7 +2,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 // Company: CDAC Acts, Pune
 // Date: August 2026
-// Engineer: Pratik Jangale, Anshuman Singh, Om Thakur, Monesh Kamde
+// Engineer: Pratik Jangale, Anshuman Singh, Om Thakur, Monesh Kamde, Aditya S
 // Module Name: STATUS_REGISTERS
 // Project Name: AXI Lite to SPI Bridge
 // Description: Holds a single-bit write/read status for every SPI slave chip.

@@ -2,7 +2,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 // Company: CDAC Acts, Pune
 // Date: August 2026
-// Engineer: Pratik Jangale, Anshuman Singh, Om Thakur, Monesh Kamde
+// Engineer: Pratik Jangale, Anshuman Singh, Om Thakur, Monesh Kamde, Aditya S
 // Module Name: AXI_MANAGER
 // Project Name: AXI Lite to SPI Bridge
 // Description: Checks incoming AXI addresses, generates BRESP/RRESP, pushes
