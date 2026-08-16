@@ -1,32 +1,16 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
+//
 // Company: CDAC Acts, Pune
-// Engineer: Humum Shaikh, Shrish, Sonali, Shubham, Dev
-// 
-// Create Date: 24.01.2026 22:21:57
-// Design Name: 
+// Date: August 2026
+// Engineer: Pratik Jangale, Anshuman Singh, Om Thakur, Monesh Kamde, Aditya S
 // Module Name: SSQ
-// Project Name: AXI Lite to SPI Bridge
-// Target Devices: 
-// Tool Versions: 
+// Project Name: Axi4 Lite to SPI Bridge
 // Description: It acts like a FIFO. It stores the addresses of write registers written by AXI Manager. It also sends empty/full signal to AXI Manager.
 // It pops out the addresses of write registers on request from SPI Manager.
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
+//
 //////////////////////////////////////////////////////////////////////////////////
 
-
-// ============================================================================
-// NOTE: NO FUNCTIONAL CHANGES NEEDED for the 8-chip x 32-location upgrade.
-// This FIFO only stores/returns generic 8-bit values. It previously carried
-// a slave's AXI address (0,2,4...14); it now carries the combined
-// {chip_sel[2:0], location[4:0]} value instead - same width, same behaviour,
-// no code change required. File included here unchanged for completeness.
-// ============================================================================
 
 module SSQ
 (

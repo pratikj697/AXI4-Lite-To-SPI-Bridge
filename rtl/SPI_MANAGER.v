@@ -1,21 +1,15 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: CDAC Acts, Pune
-// Engineer: Humum Shaikh, Shrish, Sonali, Shubham, Dev
-// Module Name: SPI_MANAGER
-// Project Name: AXI Lite to SPI Bridge
-// Description: Controls the SPI Master and updates the Data/Status registers
-//              for whichever chip+location transaction is currently queued.
 //
-// UPDATED for 8 chips x 32 locations:
-//   - rd_slave_addr / tempAddress / tx_reg_addr / rx_reg_addr are now the
-//     full 8-bit {chip_sel[2:0], location[4:0]} value (unchanged width,
-//     just reinterpreted).
-//   - Chip-select decode simplified from an 8-way case statement to a single
-//     one-hot assignment driven directly by tempAddress[7:5].
-//   - wr_stat_up_addr / rd_stat_up_addr are now plain 3-bit chip_sel values
-//     (STATUS_REGISTERS tracks status per chip, not per location).
+// Company: CDAC Acts, Pune
+// Date: August 2026
+// Engineer: Pratik Jangale, Anshuman Singh, Om Thakur, Monesh Kamde, Aditya S
+// Module Name: SSQ
+// Project Name: Axi4 Lite to SPI Bridge
+// Description: Controls the SPI Master and updates the Data/Status registers for whichever chip+location transaction is currently queued.
+//
 //////////////////////////////////////////////////////////////////////////////////
+
 
 
 module SPI_MANAGER
